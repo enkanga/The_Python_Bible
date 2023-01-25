@@ -26,7 +26,7 @@ for word in words:
         new_word = the_rest + cons + 'ay'
         new_words.append(new_word)
         
-        """ My solution
+""" My solution (doesn't account for non-vowel words)
         for i in range(len(word)):
             if word[i] in 'aeiou':
                 cons_cluster = word[:i]
@@ -34,7 +34,7 @@ for word in words:
                 break
         
         new_words.append(rem_cluster + cons_cluster + 'ay')
-        """
+"""
 
 
 # stick words back together
